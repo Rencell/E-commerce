@@ -10,3 +10,7 @@ menu.addEventListener("click", function(){
 
     bool = !bool;
 });
+
+function goToLOGIN(){
+    window.location.href="./Login Page/login.html"
+}
