@@ -34,7 +34,7 @@ body{
 /*Page 1*/
 
 .page1{
-    background-image: url(./img/background.svg);
+    background-image: url(../img/background.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,7 +145,7 @@ body{
     
     height: 100dvh;
     width: 100dvw;
-    background-image: url(./img/Wave.svg);
+    background-image: url(../img/Wave.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,7 +204,7 @@ body{
     > .background-page4{
         height: 70dvh;
         width: 100dvw;
-        background-image: url(./img/Cookie_Background.jpg);
+        background-image: url(../img/Cookie_Background.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
