@@ -11,35 +11,35 @@
 </head>
 <body>
     <!--Page 1-->
-
-    <section class="page1">
+    
+    <section id="page1">
         <header class="header">
             <div class="nav">
-                <p>Okie ka<br> Cookie</p>
+                <img src="./img/Main_imgs/Cookie-logo.png" width="90px" alt="cookie logo">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Popular</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#page1">Home</a></li>
+                    <li><a href="#page4">Products</a></li>
+                    <li><a href="#page3">Popular</a></li>
+                    <li><a href="#page5">Contact Us</a></li>
                 </ul>
-                <button onclick="goToLOGIN()" >Sign Up</button>
+                <button onclick="goToLOGIN()" id="login" ><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Sign Up</button>
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
         <div class="background">
             <div>
-                <h1>Sample Text</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias nemo natus ad iure odit reprehenderit, dignissimos rem commodi expedita, nihil quas neque at sapiente distinctio voluptatem! Molestias officia, cupiditate blanditiis porro itaque at non hic obcaecati perferendis nesciunt a laborum quidem ad fugit nam? Mollitia et magni veritatis, eos totam harum earum. Explicabo a reprehenderit exercitationem dignissimos</p>
-                <button>Order Now</button>
+                <h1>Discover the Joy of Our Delicious Cookies!</h1>
+                <p>Experience pure joy with our delicious cookies! Indulge in delightful flavors crafted to perfection. Elevate your taste buds with every bite – a celebration of sweetness and texture.</p>
+                <button onclick="goProduct()">Order Now</button>
 
             </div>
             
-            <img src="./img/cookie-plate.png" alt="">
+            <img src="./img/Main_imgs/cookie-plate.png" alt="">
         </div>
     </section>
 
     <!--Page 2-->
-    <section class="page2">
+    <section id="page2">
         <div class="why-container">
             <h4>WHY US?</h4>
 
@@ -49,23 +49,23 @@
                     <div class="box-content">
                         <h4>Fast Delivery</h4>
                         <svg xmlns="http://www.w3.org/2000/svg" height="150" width="150" fill="#DB5A42" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, soluta. Iusto dolorem animi nemo ut nam, porro molestias libero iste.</p>
+                        <p>Experience unparalleled efficiency with our rapid delivery service, where speed meets reliability to get your products to you faster than ever before.</p>
                     </div>
                     
                 </div>
                 <div class="box">
                     <div class="box-content">
-                        <h4>Fast Delivery</h4>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="150" width="150" fill="#DB5A42" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, soluta. Iusto dolorem animi nemo ut nam, porro molestias libero iste.</p>
+                        <h4>Quality Assurance</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="150" width="150" fill="#DB5A42" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                        <p>Our commitment extends beyond speed; we guarantee top-notch quality in every product or service, we checked everything thoroughly to ensure your satisfaction. </p>
                     </div>
 
                 </div>
                 <div class="box">
                     <div class="box-content">
-                        <h4>Fast Delivery</h4>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="150" width="150" fill="#DB5A42" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, soluta. Iusto dolorem animi nemo ut nam, porro molestias libero iste.</p>
+                        <h4>Positive Customer Feedback</h4>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="150" width="150" fill="#DB5A42" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z"/></svg>
+                        <p>Our satisfied customers speak for us. Read the glowing reviews that position us as the first choice for those seeking reliability, quality, and a seamless experience.</p>
                     </div>
 
                 </div>
@@ -74,20 +74,20 @@
     </section>
     <!--Page 3-->
 
-    <section class="page3">
+    <section id="page3">
         <div class="background-page4">
-            <h1>Popular Product</h1>
-            <button><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
+            <h1><span>Accept your cookie now!</span><br>Popular Product</h1>
+            <button onclick="goProduct()"><i class="fa-solid fa-cart-shopping"></i>Add To Cart</button>
         </div>
         
-        <img src="./img/cookie-plate.png" alt="">
+        <img src="./img/Main_imgs/PopularProducts.png" alt="">
         
     </section>
 
 
     <!--Page 4-->
     
-    <section class="page4">
+    <section id="page4">
        <div class="product-container">
             <h4>
                 PRODUCTS
@@ -96,56 +96,66 @@
             <div class="product-content">
                 <div class="box">
                     <div class="content-image">
-                        <img src="./img/cookie.jpg" alt="">
+                        <img src="./img/ProductS_imgs/Products/Almond_Cookie.jpeg" alt="">
                     </div>
                     <div class="label">
-                        <h4>Text Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium iusto libero molestiae molestias quam debitis enim, impedit minus consectetur nobis?</p>
+                        <h4>Almond Cookie</h4>
+                        <p><i class="fa-solid fa-star" style="color: #f1c40f;"></i> 4.90(1000+)</p>
+                        <hr>
+                        <h4>₱ 145.00</h4>
+                        <button onclick="goProduct()">Check out</button>
                     </div>
                 </div>
                 <div class="box">
                     <div class="content-image">
-                        <img src="./img/cookie.jpg" alt="">
+                        <img src="./img/ProductS_imgs/Products/Breakfast_Cookie.jpeg" alt="">
                     </div>
                     <div class="label">
-                        <h4>Text Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium iusto libero molestiae molestias quam debitis enim, impedit minus consectetur nobis?</p>
+                        <h4>Breakfast Cookie</h4>
+                        <p><i class="fa-solid fa-star" style="color: #f1c40f;"></i> 4.90(1000+)</p>
+                        <hr>
+                        <h4>₱ 140.00</h4>
+                        <button onclick="goProduct()">Check out</button>   
                     </div>
                 </div>
                 <div class="box">
                     <div class="content-image">
-                        <img src="./img/cookie.jpg" alt="">
+                        <img src="./img/ProductS_imgs/Products/Buttered_Cookie.jpeg" alt="">
                     </div>
                     <div class="label">
-                        <h4>Text Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium iusto libero molestiae molestias quam debitis enim, impedit minus consectetur nobis?</p>
-                    </div>
+                        <h4>Buttered Cookie</h4>
+                        <p><i class="fa-solid fa-star" style="color: #f1c40f;"></i> 4.90(1000+)</p>
+                        <hr>
+                        <h4>₱ 120.00</h4>
+                        <button onclick="goProduct()">Check out</button></div>
                 </div>
                 <div class="box">
                     <div class="content-image">
-                        <img src="./img/cookie.jpg" alt="">
+                        <img src="./img/ProductS_imgs/Products/Choco_Raisin_Cookie.jpeg" alt="">
                         
                     </div>
                     <div class="label">
-                        <h4>Text Title</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium iusto libero molestiae molestias quam debitis enim, impedit minus consectetur nobis?</p>
-                    </div>
+                        <h4>Choco Raisin Cookie</h4>
+                        <p><i class="fa-solid fa-star" style="color: #f1c40f;"></i> 4.90(1000+)</p>
+                        <hr>
+                        <h4>₱ 105.00</h4>
+                        <button onclick="goProduct()">Check out</button></div>
                 </div>
             </div>
-            <button>Show More</button>
+            <button onclick="goProduct()">Show More</button>
         </div>
     </section>
     <!--Page 5-->
-    <section class="page5">
-        <h1>Okie Ka <br> Cookie</h1>
+    <section id="page5">
+        <img src="./img/Main_imgs/Cookie-logo.png" width="200px" alt="cookie logo">
         <div class="contact">
             <div class="contact-container">
                 <div class="contact-box">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Popular</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#page1">Home</a></li>
+                        <li><a href="#page4">Products</a></li>
+                        <li><a href="#page3">Popular</a></li>
+                        <li><a href="#page5">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="contact-box">
