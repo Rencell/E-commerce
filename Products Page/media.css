@@ -50,7 +50,14 @@
     > .product-container{
         width: 100dvw;
         > .producttor{
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
+            > .box{
+                > .button-container{
+                    > button:nth-child(1){
+                        width: 60%;
+                    }
+                }
+            }
         }
     }
 }
