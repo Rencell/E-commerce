@@ -12,7 +12,7 @@ menu.addEventListener("click", function(){
 });
 
 function goToLOGIN(){
-    window.location.href="../Login Page/login.html"
+    window.location.href="./Login Page/login.html"
 }
 function goProduct(){
     window.location.href="./Products Page/product.html"
